@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+body{
+    background-color:#d7e3fc;
+}
+h1{
+    text-align: center;
+    font-family: "Abril Fatface";
+    color: #023e8a;
+}
+div{
+    font-family: "Quicksand";
+    color: black;
+}
+
+h3{
+    text-align:justify;
+    font-family: "DM Serif Display";
+    color: #023e8a;
+    margin: 20px;
+}
+
+.palavras {
+
+    p {
+        width: 70%;
+    }
+}
+/* edições do texto da página */
+section {
+    display: flex;
+    align-items:center;
+    justify-content:right;
+
+    p {
+        width: 80%;
+        margin-right: 50px;
+        color: #03045e;
+    }
+  }
+
+  p{
+    text-align: justify;
+    margin: 15px;
+  }
+b{
+  color:#48cae4;
+}
+
+/* texto botão aula */ 
+a{
+    color: #48bfe3;
+    font-family: "Quicksand";
+  }
+  
+  /* botão aulas */ 
+  button {
+    width: 150px;
+    height: 43px;
+    border: 3px solid #03045e;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background:#d7e3fc;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: "Quicksand";
+  }
+  
+  button:hover {
+    background: #03045e;
+    color: #00b4d8;
+    font-size: 1.1em;
+  }
+img{
+  width: 45px;
+  height: 45px;
+}
+list{
+    color: #219ebc;
+    font-weight: bold;
+    margin: 20px;
+}

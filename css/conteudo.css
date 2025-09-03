@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    background-color:#d7e3fc;
+}
+img{
+    width: 50px;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+    p {
+        width: 30%;
+        margin-right: 50px;
+        color: #6c757d;
+    }
+  }
+
+a{
+  color: #48bfe3;
+  font-family: "Quicksand";
+}
+
+/* botão aulas */ 
+button {
+  width: 150px;
+  height: 43px;
+  position: relative;
+  padding: 5px 20px;
+  border: 2px solid #03045e;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background:#d7e3fc;
+  font-size: 1.2em;
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  background: #03045e;
+  color: #00b4d8;
+  font-size: 1.1em;
+}
